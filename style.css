@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Poppins:ital@1&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #f8f1f1;
+  margin: 0 auto;
+
+}
+
+.container {
+  background-color: #f8f1f1;
+  margin: 10px auto;
+  padding: 30px;
+  border: 1px solid #fcefef;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 800px;        /* Set the width */
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Big Shoulders Display', cursive;
+  color: #0a043c;
+  line-height: 20px;
+
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+
+}
+
+ul {
+  padding: 0;
+
+}
+
+.links {
+
+}
+
+.profile_pic {
+  width: 150px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px, #11698e;
+
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+/*======================'Responsive design'======================*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
